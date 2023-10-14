@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+
+.op{
+
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;   
+    transition: 1s;   
+}
+
+
+.op:hover{
+
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 12px;
+
+
+}
+
+
+.text{
+    display: flex;
+    list-style-type: none;
+    margin: none;
+    
+}
+li{
+    padding: 8px;
+    padding-top: 30px;
+    color: aliceblue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+li:hover{
+    color: skyblue;
+    cursor: pointer;
+
+}
+li:active{
+    color: rgb(49, 155, 197);
+    cursor: wait;
+    
+}
+img{
+    width: 240px;
+    
+}
